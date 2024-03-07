@@ -35,22 +35,20 @@ Suggestions include updating the dataset to reflect current work trends like rem
 ## Project Structure
 
 This repository is organized as follows:
-.
-├── `data/`
-│   └── This directory contains the dataset used for analysis.
-├── `figures/`
-│   └── This directory contains visualizations and graphs generated during the analysis.
-├── `results/`
-│   ├── `KNN.save` - The saved K-Nearest Neighbors model.
-│   ├── `Ridge.save` - The saved Ridge Regression model.
-│   ├── `rf2.save` - The saved Random Forest model (second version with different parameters or data).
-│   ├── `SVC.save` - The saved Support Vector Classifier model.
-│   └── `XGB.save` - The saved XGBoost model.
-├── `report/`
-│   └── This directory contains the detailed project report in PDF format.
-├── `src/`
-│   ├── `overview of the features.xlsx` - Overview of the features of data.
-│   └── `project.ipynb` - Source code.
-├── `.gitignore` - Specifies intentionally untracked files to ignore.
-├── `LICENSE` - The license for the project.
-└── `README.md` - The README file with information about the project.
+
+- `data/` - This directory contains the dataset used for analysis.
+- `figures/` - This directory contains visualizations and graphs generated during the analysis.
+- `results/`
+  - `KNN.save` - The saved K-Nearest Neighbors model.
+  - `Ridge.save` - The saved Ridge Regression model.
+  - `rf2.save` - The saved Random Forest model (second version with different parameters or data).
+  - `SVC.save` - The saved Support Vector Classifier model.
+  - `XGB.save` - The saved XGBoost model.
+- `report/` - This directory contains the detailed project report in PDF format.
+- `src/`
+  - `overview of the features.xlsx` - Overview of the features of data.
+  - `project.ipynb` - Source code.
+- `.gitignore` - Specifies intentionally untracked files to ignore.
+- `LICENSE` - The license for the project.
+- `README.md` - The README file with information about the project.
+
